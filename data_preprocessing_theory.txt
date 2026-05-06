@@ -1,0 +1,145 @@
+# Customer Credit Risk - Data Preprocessing Project
+
+==================================================
+Data Preprocessing & Feature Engineering (Theory)
+==================================================
+
+Introduction
+------------
+Data preprocessing is the process of cleaning, transforming, and organizing raw data into a structured format suitable for machine learning models.
+Feature engineering involves creating new features or modifying existing ones to improve model performance.
+
+
+Task 1: Data Understanding
+--------------------------
+Types of Data:
+- Structured Data → Tables (rows & columns)
+- Unstructured Data → Images, text, videos
+- Semi-Structured Data → JSON, XML
+
+Types of Machine Learning:
+- Supervised Learning → Labeled data (Classification, Regression)
+- Unsupervised Learning → No labels (Clustering)
+- Semi-Supervised Learning → Few labeled samples
+
+
+Task 2: Data Acquisition
+------------------------
+- Local files (CSV, Excel)
+- APIs
+- Databases
+- Web scraping
+
+
+Task 3: Data Understanding & Cleaning
+-------------------------------------
+Exploratory Data Analysis (EDA):
+- Univariate Analysis → Single variable
+- Bivariate Analysis → Two variables
+- Multivariate Analysis → Multiple variables
+
+Data Profiling:
+- Summary statistics (mean, median, std)
+- Missing values detection
+- Distribution analysis
+
+
+Task 4: Missing Value Imputation
+--------------------------------
+- Mean/Median Imputation (Numerical)
+- Most Frequent Imputation (Categorical)
+- Missing Indicator
+- Random Sampling
+- KNN Imputer
+- MICE (Multivariate Imputation)
+
+
+Task 5: Outlier Detection
+-------------------------
+- Z-Score Method
+- IQR Method
+- Percentile Method
+- Winsorization
+
+
+Task 6: Handling Mixed Variables
+--------------------------------
+- Combine categorical and numerical features
+- Example: Gender (cat), Age (num)
+
+
+Task 7: Date Handling
+---------------------
+Extract:
+- Year
+- Month
+- Day
+- Weekday
+
+
+Task 8: Encoding Techniques
+---------------------------
+Ordinal Encoding:
+- Used when categories have order
+
+Label Encoding:
+- Convert categories into numbers
+
+One-Hot Encoding:
+- Create binary columns
+
+
+Task 9: Numerical Encoding
+--------------------------
+- Convert numerical data into bins
+
+
+Task 10: Binning & Discretization
+---------------------------------
+- Equal width
+- Equal frequency (Quantile)
+- K-Means binning
+
+
+Task 11: Feature Scaling
+------------------------
+- Standardization
+- Min-Max Scaling
+- Robust Scaling
+
+
+Task 12: Feature Construction
+-----------------------------
+Example:
+DTI = Loan Amount / Annual Income
+
+
+Task 13: Feature Transformation
+-------------------------------
+- Log Transformation
+- Square Root Transformation
+- Reciprocal Transformation
+- Box-Cox
+- Yeo-Johnson (handles zero & negative values)
+
+
+Task 14: Column Transformer
+---------------------------
+- Apply different preprocessing on numerical & categorical columns
+
+
+Task 15: Feature Selection
+--------------------------
+- Remove irrelevant features
+- Improve model performance
+
+
+Conclusion
+----------
+Data preprocessing and feature engineering are essential steps in machine learning.
+They improve model accuracy, reliability, and performance.
+
+
+Pipeline Flow
+-------------
+Data → Cleaning → Imputation → Encoding → Scaling → Feature Engineering → Model
